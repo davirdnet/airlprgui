@@ -1,0 +1,704 @@
+{
+    "log": [
+        {
+            "id": "00",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5913",
+            "frota": "1000",
+            "situacao": "ok"
+        },
+        {
+            "id": "01",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5688",
+            "frota": "1001",
+            "situacao": "ok"
+        },
+        {
+            "id": "02",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6200",
+            "frota": "1002",
+            "situacao": "ok"
+        },
+        {
+            "id": "03",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6453",
+            "frota": "1003",
+            "situacao": "ok"
+        },
+        {
+            "id": "04",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3974",
+            "frota": "1004",
+            "situacao": "ok"
+        },
+        {
+            "id": "05",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3361",
+            "frota": "1005",
+            "situacao": "ok"
+        },
+        {
+            "id": "06",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1975",
+            "frota": "1006",
+            "situacao": "ok"
+        },
+        {
+            "id": "07",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0972",
+            "frota": "1007",
+            "situacao": "ok"
+        },
+        {
+            "id": "08",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6703",
+            "frota": "1008",
+            "situacao": "ok"
+        },
+        {
+            "id": "09",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9187",
+            "frota": "1009",
+            "situacao": "ok"
+        },
+        {
+            "id": "010",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9685",
+            "frota": "10010",
+            "situacao": "ok"
+        },
+        {
+            "id": "011",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7616",
+            "frota": "10011",
+            "situacao": "ok"
+        },
+        {
+            "id": "012",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1098",
+            "frota": "10012",
+            "situacao": "ok"
+        },
+        {
+            "id": "013",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2640",
+            "frota": "10013",
+            "situacao": "ok"
+        },
+        {
+            "id": "014",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9280",
+            "frota": "10014",
+            "situacao": "ok"
+        },
+        {
+            "id": "015",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0568",
+            "frota": "10015",
+            "situacao": "ok"
+        },
+        {
+            "id": "016",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC4407",
+            "frota": "10016",
+            "situacao": "ok"
+        },
+        {
+            "id": "017",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5109",
+            "frota": "10017",
+            "situacao": "ok"
+        },
+        {
+            "id": "018",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7058",
+            "frota": "10018",
+            "situacao": "ok"
+        },
+        {
+            "id": "019",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0966",
+            "frota": "10019",
+            "situacao": "ok"
+        },
+        {
+            "id": "020",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1461",
+            "frota": "10020",
+            "situacao": "ok"
+        },
+        {
+            "id": "021",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5960",
+            "frota": "10021",
+            "situacao": "ok"
+        },
+        {
+            "id": "022",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3149",
+            "frota": "10022",
+            "situacao": "ok"
+        },
+        {
+            "id": "023",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC4452",
+            "frota": "10023",
+            "situacao": "ok"
+        },
+        {
+            "id": "024",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7426",
+            "frota": "10024",
+            "situacao": "ok"
+        },
+        {
+            "id": "025",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8920",
+            "frota": "10025",
+            "situacao": "ok"
+        },
+        {
+            "id": "026",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1735",
+            "frota": "10026",
+            "situacao": "ok"
+        },
+        {
+            "id": "027",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2567",
+            "frota": "10027",
+            "situacao": "ok"
+        },
+        {
+            "id": "028",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC4004",
+            "frota": "10028",
+            "situacao": "ok"
+        },
+        {
+            "id": "029",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9036",
+            "frota": "10029",
+            "situacao": "ok"
+        },
+        {
+            "id": "030",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8598",
+            "frota": "10030",
+            "situacao": "ok"
+        },
+        {
+            "id": "031",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1746",
+            "frota": "10031",
+            "situacao": "ok"
+        },
+        {
+            "id": "032",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6585",
+            "frota": "10032",
+            "situacao": "ok"
+        },
+        {
+            "id": "033",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8818",
+            "frota": "10033",
+            "situacao": "ok"
+        },
+        {
+            "id": "034",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7573",
+            "frota": "10034",
+            "situacao": "ok"
+        },
+        {
+            "id": "035",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6416",
+            "frota": "10035",
+            "situacao": "ok"
+        },
+        {
+            "id": "036",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8854",
+            "frota": "10036",
+            "situacao": "ok"
+        },
+        {
+            "id": "037",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1193",
+            "frota": "10037",
+            "situacao": "ok"
+        },
+        {
+            "id": "038",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1819",
+            "frota": "10038",
+            "situacao": "ok"
+        },
+        {
+            "id": "039",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6138",
+            "frota": "10039",
+            "situacao": "ok"
+        },
+        {
+            "id": "040",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6807",
+            "frota": "10040",
+            "situacao": "ok"
+        },
+        {
+            "id": "041",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5847",
+            "frota": "10041",
+            "situacao": "ok"
+        },
+        {
+            "id": "042",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7336",
+            "frota": "10042",
+            "situacao": "ok"
+        },
+        {
+            "id": "043",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7508",
+            "frota": "10043",
+            "situacao": "ok"
+        },
+        {
+            "id": "044",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8209",
+            "frota": "10044",
+            "situacao": "ok"
+        },
+        {
+            "id": "045",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6631",
+            "frota": "10045",
+            "situacao": "ok"
+        },
+        {
+            "id": "046",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5306",
+            "frota": "10046",
+            "situacao": "ok"
+        },
+        {
+            "id": "047",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2741",
+            "frota": "10047",
+            "situacao": "ok"
+        },
+        {
+            "id": "048",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3831",
+            "frota": "10048",
+            "situacao": "ok"
+        },
+        {
+            "id": "049",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5410",
+            "frota": "10049",
+            "situacao": "ok"
+        },
+        {
+            "id": "050",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1885",
+            "frota": "10050",
+            "situacao": "ok"
+        },
+        {
+            "id": "051",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3442",
+            "frota": "10051",
+            "situacao": "ok"
+        },
+        {
+            "id": "052",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0207",
+            "frota": "10052",
+            "situacao": "ok"
+        },
+        {
+            "id": "053",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3911",
+            "frota": "10053",
+            "situacao": "ok"
+        },
+        {
+            "id": "054",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1630",
+            "frota": "10054",
+            "situacao": "ok"
+        },
+        {
+            "id": "055",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0860",
+            "frota": "10055",
+            "situacao": "ok"
+        },
+        {
+            "id": "056",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0427",
+            "frota": "10056",
+            "situacao": "ok"
+        },
+        {
+            "id": "057",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6300",
+            "frota": "10057",
+            "situacao": "ok"
+        },
+        {
+            "id": "058",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6845",
+            "frota": "10058",
+            "situacao": "ok"
+        },
+        {
+            "id": "059",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7259",
+            "frota": "10059",
+            "situacao": "ok"
+        },
+        {
+            "id": "060",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC4202",
+            "frota": "10060",
+            "situacao": "ok"
+        },
+        {
+            "id": "061",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9598",
+            "frota": "10061",
+            "situacao": "ok"
+        },
+        {
+            "id": "062",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6380",
+            "frota": "10062",
+            "situacao": "ok"
+        },
+        {
+            "id": "063",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0901",
+            "frota": "10063",
+            "situacao": "ok"
+        },
+        {
+            "id": "064",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC7653",
+            "frota": "10064",
+            "situacao": "ok"
+        },
+        {
+            "id": "065",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8742",
+            "frota": "10065",
+            "situacao": "ok"
+        },
+        {
+            "id": "066",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8726",
+            "frota": "10066",
+            "situacao": "ok"
+        },
+        {
+            "id": "067",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9464",
+            "frota": "10067",
+            "situacao": "ok"
+        },
+        {
+            "id": "068",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3530",
+            "frota": "10068",
+            "situacao": "ok"
+        },
+        {
+            "id": "069",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC4577",
+            "frota": "10069",
+            "situacao": "ok"
+        },
+        {
+            "id": "070",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1202",
+            "frota": "10070",
+            "situacao": "ok"
+        },
+        {
+            "id": "071",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6048",
+            "frota": "10071",
+            "situacao": "ok"
+        },
+        {
+            "id": "072",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6568",
+            "frota": "10072",
+            "situacao": "ok"
+        },
+        {
+            "id": "073",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0660",
+            "frota": "10073",
+            "situacao": "ok"
+        },
+        {
+            "id": "074",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9383",
+            "frota": "10074",
+            "situacao": "ok"
+        },
+        {
+            "id": "075",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2499",
+            "frota": "10075",
+            "situacao": "ok"
+        },
+        {
+            "id": "076",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC4388",
+            "frota": "10076",
+            "situacao": "ok"
+        },
+        {
+            "id": "077",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1736",
+            "frota": "10077",
+            "situacao": "ok"
+        },
+        {
+            "id": "078",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8077",
+            "frota": "10078",
+            "situacao": "ok"
+        },
+        {
+            "id": "079",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8915",
+            "frota": "10079",
+            "situacao": "ok"
+        },
+        {
+            "id": "080",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC5402",
+            "frota": "10080",
+            "situacao": "ok"
+        },
+        {
+            "id": "081",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC8403",
+            "frota": "10081",
+            "situacao": "ok"
+        },
+        {
+            "id": "082",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3753",
+            "frota": "10082",
+            "situacao": "ok"
+        },
+        {
+            "id": "083",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9340",
+            "frota": "10083",
+            "situacao": "ok"
+        },
+        {
+            "id": "084",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9039",
+            "frota": "10084",
+            "situacao": "ok"
+        },
+        {
+            "id": "085",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9189",
+            "frota": "10085",
+            "situacao": "ok"
+        },
+        {
+            "id": "086",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9065",
+            "frota": "10086",
+            "situacao": "ok"
+        },
+        {
+            "id": "087",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC0852",
+            "frota": "10087",
+            "situacao": "ok"
+        },
+        {
+            "id": "088",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2831",
+            "frota": "10088",
+            "situacao": "ok"
+        },
+        {
+            "id": "089",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC9953",
+            "frota": "10089",
+            "situacao": "ok"
+        },
+        {
+            "id": "090",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1713",
+            "frota": "10090",
+            "situacao": "ok"
+        },
+        {
+            "id": "091",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6542",
+            "frota": "10091",
+            "situacao": "ok"
+        },
+        {
+            "id": "092",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2194",
+            "frota": "10092",
+            "situacao": "ok"
+        },
+        {
+            "id": "093",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6394",
+            "frota": "10093",
+            "situacao": "ok"
+        },
+        {
+            "id": "094",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2870",
+            "frota": "10094",
+            "situacao": "ok"
+        },
+        {
+            "id": "095",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC2534",
+            "frota": "10095",
+            "situacao": "ok"
+        },
+        {
+            "id": "096",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1421",
+            "frota": "10096",
+            "situacao": "ok"
+        },
+        {
+            "id": "097",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC1158",
+            "frota": "10097",
+            "situacao": "ok"
+        },
+        {
+            "id": "098",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC3309",
+            "frota": "10098",
+            "situacao": "ok"
+        },
+        {
+            "id": "099",
+            "data_hora": "2021-03-20 15:45:28-0300",
+            "placa": "PLC6763",
+            "frota": "10099",
+            "situacao": "ok"
+        }
+    ]
+}

@@ -1,0 +1,83 @@
+<mat-toolbar class="title">
+  <span>Logs de Controle de Acesso</span>
+</mat-toolbar>
+<mat-card class="my-card-pai">
+   <form class="my-form" [formGroup]="formSearch">  
+      <mat-card-content class="my-card">
+         <mat-form-field class="blocks">
+            <mat-label>Camera</mat-label>
+            <input  matInput name="camera" formControlName="camera">
+         </mat-form-field>
+         <mat-form-field class="blocks">
+            <mat-label>Placa</mat-label>
+            <input  matInput name="placa" formControlName="placa">
+         </mat-form-field>
+         <mat-form-field class="blocks">
+            <mat-label>Frota</mat-label>
+            <input  matInput name="frota" formControlName="frota">
+         </mat-form-field>
+         <mat-form-field class="blocks">
+            <mat-label>Situação</mat-label>
+            <mat-select formControlName="situacao">
+               <mat-option *ngFor="let situ of situacoes" [value]="situ.id">{{situ.value}}</mat-option>
+            </mat-select>
+
+         </mat-form-field>
+         <mat-form-field class="blocks">
+            <mat-label>Data maior ou igual a</mat-label>
+            <input matInput [matDatepicker]="pickerMaior" name="data_maior" formControlName="dataHoraMaior">
+            <mat-datepicker-toggle matSuffix [for]="pickerMaior"></mat-datepicker-toggle>
+            <mat-datepicker #pickerMaior></mat-datepicker>
+         </mat-form-field>
+         <mat-form-field class="blocks">
+            <mat-label>Data menor ou igual a</mat-label>
+            <input matInput [matDatepicker]="pickerMenor" name="data_menor" formControlName="dataHoraMenor">
+            <mat-datepicker-toggle matSuffix [for]="pickerMenor"></mat-datepicker-toggle>
+            <mat-datepicker #pickerMenor></mat-datepicker>
+         </mat-form-field>
+      </mat-card-content>
+      <mat-card-actions class="buttons">
+         <button mat-raised-button (click)="clear()" color="basic">Limpar</button>
+         <button mat-raised-button (click)="filter()" color="primary">Filtrar</button>
+      </mat-card-actions>
+   </form>
+</mat-card>
+
+   <div class="mat-elevation-z8 my-card-table">
+      <table mat-table #table [dataSource]="dataSource" matSort aria-label="Elements" class="full-width">
+        <ng-container matColumnDef="camera">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Camera</th>
+          <td mat-cell *matCellDef="let row">{{row.camera}}</td>
+        </ng-container>    
+        <ng-container matColumnDef="dataHora">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Data / Hora</th>
+          <td mat-cell *matCellDef="let row">{{row.data_hora | date:"dd/MM/yyyy HH:mm"}}</td>
+        </ng-container>
+        <ng-container matColumnDef="frota">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Frota</th>
+          <td mat-cell *matCellDef="let row">{{row.frota}}</td>
+        </ng-container>
+        <ng-container matColumnDef="situacao">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Situação</th>
+          <td mat-cell *matCellDef="let row">{{row.situacao}}</td>
+        </ng-container>
+        <ng-container matColumnDef="placa">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header>Placa</th>
+          <td mat-cell *matCellDef="let row">{{row.placa}}</td>
+        </ng-container>
+        <ng-container matColumnDef="actions">
+          <th mat-header-cell *matHeaderCellDef>Ações</th>
+          <td mat-cell *matCellDef="let row"><a (click)="openDialog(row)" style="cursor: pointer;">Ver Placa</a></td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+      </table>
+    
+      <mat-paginator #paginator
+        [length]="dataSource.data.length"
+        [pageIndex]="0"
+        [pageSize]="25"
+        [pageSizeOptions]="[25, 50, 100, 250]">
+      </mat-paginator>
+    </div>

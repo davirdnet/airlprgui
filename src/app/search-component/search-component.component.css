@@ -1,0 +1,41 @@
+.my-form{
+    width: 100%;
+  }
+
+.my-card-pai {
+  padding: 20px 40px 0px 40px;
+  margin: 0px 40px 0px 40px;
+}
+.my-card-table {
+  margin: 0px 40px 0px 40px;
+}
+
+.my-card {
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  grid-gap: 4%;
+}
+
+.blocks {
+  flex: 0 1 calc(30%);
+}
+
+.full-width {
+  width: 100%;
+}
+
+.buttons {
+  text-align: end;
+  padding-bottom: 20px;
+}
+
+.title {
+  background: #ffff;
+  padding-left: 40px;
+  color: #3f51b5;
+}
+
+mat-form-field {
+  padding-top: 10px;
+}

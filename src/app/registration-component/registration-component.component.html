@@ -1,0 +1,25 @@
+ <mat-toolbar>
+  <span>Cadastro de Usuário</span>
+</mat-toolbar>
+<mat-card class="my-card">
+   <mat-card-content>
+      <form class="my-form">  
+         <mat-form-field class="full-width">
+            <mat-label>Nome</mat-label>
+            <input  matInput  placeholder="Nome"  name="nome" >
+         </mat-form-field>
+         <mat-form-field class="full-width">
+            <mat-label>Email</mat-label>
+            <input  matInput  placeholder="Email" name="sobrenome" >
+         </mat-form-field>
+         <mat-form-field class="full-width">
+            <mat-label>Senha</mat-label>
+            <input  matInput  placeholder="Senha" name="senha" >
+         </mat-form-field>
+      </form>
+   </mat-card-content>
+   <mat-card-actions>
+      <button mat-raised-button (click)="register()" color="primary">Cancelar</button>
+      <button mat-raised-button (click)="register()" color="primary">Confirmar</button>
+   </mat-card-actions>
+</mat-card>

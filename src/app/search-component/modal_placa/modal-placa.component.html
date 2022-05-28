@@ -1,0 +1,10 @@
+<h2 mat-dialog-title>Placa: {{data.value.placa}}</h2>
+<mat-dialog-content class="mat-typography">
+    <img src="../../../assets/img/caminhao-foto.jpg" alt="Placa do Caminhão" style="border: 1px solid #000000;">
+    <h4>Frota: {{data.value.frota}}</h4>
+    <h4>Data/Hora: {{data.value.data_hora | date:"dd/MM/yyyy HH:mm"}}</h4>
+    <h4>Situação: {{data.value.situacao}}</h4>
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+  <button mat-button mat-dialog-close>Fechar</button>
+</mat-dialog-actions>
